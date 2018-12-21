@@ -39,10 +39,9 @@ googleAnalytics = "UA-54367932-1"
     url = "https://github.com/jonathanfoster"
 
   [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/jonathanefoster"
-
-  [[params.social]]
     name = "twitter"
     url = "https://twitter.com/jonathanefoster"
 
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jonathanefoster"
