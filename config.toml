@@ -1,0 +1,59 @@
+baseURL = "https://jonathanfoster.io"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Jonathan Foster"
+theme = "hermit"
+enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+hasCJKLanguage = false
+rssLimit = 10
+copyright = "Copyright &copy; 2018 Foster Technologies LLC" # This message is only used by the RSS template.
+enableEmoji = true
+googleAnalytics = "UA-54367932-1"
+
+[author]
+  name = "Jonathan Foster"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag = "tags"
+  category = ""
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+  homeSubtitle = "Maker of things."
+  footerCopyright = 'Copyright &copy; 2018 Foster Technologies LLC'
+  gitUrl = "https://github.com/jonathanfoster/jonathanfoster.io/commit/"
+  justifyContent = false
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/jonathanfoster"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jonathanefoster"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/jonathanefoster"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "/about-hugo/"
+    weight = 20
