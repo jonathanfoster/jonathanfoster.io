@@ -28,7 +28,7 @@ googleAnalytics = "UA-54367932-1"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  themeColor = "#494f5c"
+  themeColor = "#111111"
   homeSubtitle = "Maker of things."
   footerCopyright = 'Copyright &copy; 2018 Foster Technologies LLC'
   gitUrl = "https://github.com/jonathanfoster/jonathanfoster.io/commit/"
