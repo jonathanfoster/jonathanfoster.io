@@ -46,14 +46,3 @@ googleAnalytics = "UA-54367932-1"
     name = "twitter"
     url = "https://twitter.com/jonathanefoster"
 
-[menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
-  [[menu.main]]
-    name = "About"
-    url = "/about-hugo/"
-    weight = 20
