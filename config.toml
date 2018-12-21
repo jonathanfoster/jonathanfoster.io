@@ -8,7 +8,7 @@ pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = false
 rssLimit = 10
-copyright = "Copyright &copy; 2018 Foster Technologies LLC" # This message is only used by the RSS template.
+copyright = "Foster Technologies LLC"
 enableEmoji = true
 googleAnalytics = "UA-54367932-1"
 
@@ -30,7 +30,7 @@ googleAnalytics = "UA-54367932-1"
 
   themeColor = "#111111"
   homeSubtitle = "Maker of things."
-  footerCopyright = 'Copyright &copy; 2018 Foster Technologies LLC'
+  footerCopyright = 'Foster Technologies LLC'
   gitUrl = "https://github.com/jonathanfoster/jonathanfoster.io/commit/"
   justifyContent = false
 
