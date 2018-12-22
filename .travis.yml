@@ -7,6 +7,5 @@ install:
   - pip install awscli
   - aws --version
 script:
-  - hugo --cleanDestinationDir --gc
-  - aws s3 sync public/ s3://www.jonathanfoster.io --acl public-read
-  - aws cloudfront create-invalidation --distribution-id E28M3GSRVS7HEH --paths '/*'
+  - hugo
+  - ./scripts/deploy.sh
