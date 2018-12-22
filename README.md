@@ -4,6 +4,11 @@
 
 Jonathan Foster, maker of things. https://www.jonathanfoster.io
 
+## Prerequisites
+
+* [Hugo](https://gohugo.io)
+* [AWS CLI](https://aws.amazon.com/cli)
+
 ## Getting Started
 
 1. Clone this repo
