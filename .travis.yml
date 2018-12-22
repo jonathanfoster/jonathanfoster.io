@@ -1,11 +1,11 @@
 dist: xenial
-language: go
+language: python
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_extended_0.52_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - hugo version
-  - go get -u -v github.com/bep/s3deploy
-  - s3deploy -V
+  - pip install --user awscli
 script:
   - hugo
-  - s3deploy -source=public/ -region=us-east-1 -bucket=www.jonathanfoster.io --distribution-id=E28M3GSRVS7HEH
+  - aws s3 sync public/ s3://www.jonathanfoster.io --acl public-read
+  - aws cloudfront create-invalidation --distribution-id E28M3GSRVS7HEH --paths '/*'
