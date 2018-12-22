@@ -1,8 +1,9 @@
 language: go
 install:
-  - go get github.com/gohugoio/hugo
-script:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
   - hugo version
+script:
   - hugo
 deploy:
   provider: s3
