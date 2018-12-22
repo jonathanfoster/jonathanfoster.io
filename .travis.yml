@@ -8,4 +8,4 @@ install:
   - s3deploy -V
 script:
   - hugo
-  - s3deploy -source=public/ -region=us-east-1 -bucket=www.jonathanfoster.io
+  - s3deploy -source=public/ -region=us-east-1 -bucket=www.jonathanfoster.io --distribution-id=E28M3GSRVS7HEH
