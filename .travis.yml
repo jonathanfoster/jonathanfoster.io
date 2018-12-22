@@ -4,7 +4,8 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_extended_0.52_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - hugo version
-  - pip install --user awscli
+  - pip install awscli
+  - aws --version
 script:
   - hugo
   - aws s3 sync public/ s3://www.jonathanfoster.io --acl public-read
